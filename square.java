@@ -3,15 +3,15 @@ package calculatesquare;
 import java.util.Scanner;
 
 public class square {
-	static int sideone ;
-	static int sidetwo ;
+	static float sideone ;
+	static float sidetwo ;
 	static Scanner sc= new Scanner(System.in);
 
 public static void main(String[] args) {
 	System.out.println("Enter first side");
-	int sideone= sc.nextInt();  
+	float sideone= sc.nextFloat();  
 	System.out.println("Enter second side");
-	int sidetwo= sc.nextInt();
+	int sidetwo= sc.nextFloat();
 	System.out.println("The squares area is : " +sideone*sidetwo);
 }
 }
