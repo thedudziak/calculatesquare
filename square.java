@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	System.out.println("Enter first side");
 	float sideone= sc.nextFloat();  
 	System.out.println("Enter second side");
-	int sidetwo= sc.nextFloat();
+	float sidetwo= sc.nextFloat();
 	System.out.println("The squares area is : " +sideone*sidetwo);
 }
 }
